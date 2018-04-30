@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/Memory-Game.css">
+    <link rel="stylesheet" href="css/Animation.css">
+    <link rel="stylesheet" href="css/Media.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1> Memory Game </h1>
+      </header>
+<!--
+*
+*
+*** rating , resting timer section
+*
+*
+-->
+<section class="rating-resting">
+  <div class="rating">
+    <span class="rate"> Your Rate </span>
+    <ul class="stars">
+          <li ><i id="first-star" class="fa fa-star fa-la"></i></li>
+          <li ><i id="second-star" class="fa fa-star fa-la"></i></li>
+          <li ><i  id="third-star" class="fa fa-star fa-la"></i></li>
+          <li ><i  id="fourth-star" class="fa fa-star fa-la"></i></li>
+          <li ><i  id="fifth-star" class="fa fa-star fa-la"></i></li>
+      </ul>
+  </div>
+
+</section>
+
+  <img class="poro-resting" alt="poro" onclick="startOver()" src="photos/gBgRqeO.png">
+<section class="timer-moves-holder">
+  <span class="moves"> Moves </span>
+  <div id="timer">Timer </div>
+</section>
+
+<!--
+*
+*
+*** deck and cards section
+*
+*
+-->
+
+          <ul class="deck">
+            <li class="card" type="ahri"> <img src="photos/Charmed_Emote.png"  class="champ" alt="ahri" >  </li>
+            <li class="card" type="yasuo"> <img src="photos/3461f42df43063cd.png" class="champ" alt="yasuo" > </li>
+            <li class="card" type="ashe"> <img src="photos/3942b79bc1ebfc85.png" class="champ" alt="ashe" > </li>
+            <li class="card" type="vayne"> <img src="photos/According_to_Plan_Emote.png" class="champ" alt="vayne" > </li>
+            <li class="card" type="teemo"> <img src="photos/c07b216479f0021631116a08b93d613b.png" class="champ" alt="teemo" > </li>
+            <li class="card" type="jinx"> <img src="photos/Catch_Me_If_You_Can!_Emote.png" class="champ" alt="jinx" > </li>
+            <li class="card" type="fiora"> <img src="photos/Clean_Emote.png" class="champ" alt="fiora"  > </li>
+            <li class="card" type="lulu"> <img src="photos/Delightify_Emote.png" class="champ" alt="lulu" > </li>
+            <li class="card" type="riven"> <img src="photos/fed0fe2189e77c0a.png" class="champ" alt="riven" > </li>
+            <li class="card" type="ziggs"> <img src="photos/Gonna_Be_A_Blast_Emote.png" class="champ" alt="ziggs" > </li>
+            <li class="card" type="gnar" > <img src="photos/How_Could_You_Emote.png" class="champ" alt="gnar" > </li>
+            <li class="card" type="leesin"> <img src="photos/lets-do-this.png" class="champ" alt="leesin" >  </li>
+            <li class="card" type="braum"> <img src="photos/Much_Love_Emote.png" class="champ" alt="braum" > </li>
+            <li class="card" type="lux"> <img src="photos/Nice_Try_Emote.png" class="champ" alt="lux" > </li>
+            <li class="card" type="ezreal"> <img src="photos/Oops_Emote.png" class="champ" alt="ezreal" > </li>
+            <li class="card" type="darius"> <img src="photos/No_Retreat_Emote.png" class="champ" alt="darius" >  </li>
+            <li class="card" type="ahri"> <img src="photos/Charmed_Emote.png"  class="champ" alt="ahri" >  </li>
+            <li class="card" type="yasuo"> <img src="photos/3461f42df43063cd.png" class="champ" alt="yasuo" > </li>
+            <li class="card" type="ashe"> <img src="photos/3942b79bc1ebfc85.png" class="champ" alt="ashe" > </li>
+            <li class="card" type="vayne"> <img src="photos/According_to_Plan_Emote.png" class="champ" alt="vayne" > </li>
+            <li class="card" type="teemo"> <img src="photos/c07b216479f0021631116a08b93d613b.png" class="champ" alt="teemo" > </li>
+            <li class="card" type="jinx"> <img src="photos/Catch_Me_If_You_Can!_Emote.png" class="champ" alt="jinx" > </li>
+            <li class="card" type="fiora"> <img src="photos/Clean_Emote.png" alt="fiora" class="champ" > </li>
+            <li class="card" type="lulu"> <img src="photos/Delightify_Emote.png" class="champ" alt="lulu" > </li>
+            <li class="card" type="riven"> <img src="photos/fed0fe2189e77c0a.png" class="champ" alt="riven" > </li>
+            <li class="card" type="ziggs"> <img src="photos/Gonna_Be_A_Blast_Emote.png" class="champ" alt="ziggs" > </li>
+            <li class="card" type="gnar" > <img src="photos/How_Could_You_Emote.png" class="champ" alt="gnar" > </li>
+            <li class="card" type="leesin"> <img src="photos/lets-do-this.png" class="champ" alt="leesin" >  </li>
+            <li class="card" type="braum"> <img src="photos/Much_Love_Emote.png" class="champ" alt="braum" > </li>
+            <li class="card" type="lux"> <img src="photos/Nice_Try_Emote.png" class="champ" alt="lux" > </li>
+            <li class="card" type="ezreal"> <img src="photos/Oops_Emote.png" class="champ" alt="ezreal" > </li>
+            <li class="card" type="darius"> <img src="photos/No_Retreat_Emote.png" class="champ" alt="darius" >  </li>
+          </ul>
+<!--
+*
+*
+*** pop up window
+*
+*
+-->
+          <div class="popup">
+            <h2 class="scores-head"> </h2>
+
+            <img src="photos/16f2935c13a384d4.png" alt="victory" class="victory">
+            <div class="scores">
+              <p> You Done >> <span class="lastMove"> </span> Moves </p>
+              <p> In >> <span class="lastTimer"> </span> </p>
+              <p> Your Rate >> <span class="lastRate"> </span> </p>
+
+            </div>
+              <img class="xporo-resting" alt="poro" onclick="startOver()" src="photos/gBgRqeO.png">
+          </div>
+
+    </main>
+<!--
+*
+*
+*** the footer
+*
+*
+-->
+  <footer class="footer">
+    <p> Hope You Have Fun <br>
+    Made By Ahmed_Saad
+    Contact Me At...  <a href="https://www.facebook.com/profile.php?id=100004393904380" target="_blank"> <i class="fab fa-facebook-f fa-2x"></i> </a> </p>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/Memory-Game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,562 @@
+@media screen and (max-width:280px) {
+    h1 {
+      font-size:20px;
+    }
+
+    .deck {
+      width:270px;
+      max-width:270px;
+      min-height: 600px;
+    }
+    .deck .card {
+      width:60px;
+      max-width: 60px;
+      height:40px;
+    }
+    .stars i {
+      font-size: 24px;
+    }
+
+    .poro-resting {
+      height:60px;
+    }
+    #timer {
+      font-size:20px;
+    }
+    .moves {
+      font-size:20px;
+    }
+    .popup {
+      margin:auto;
+      width:100%;
+      height:60%;
+      position: fixed;
+    }
+    .scores-head {
+      font-size: 20px;
+    }
+    .xporo-resting {
+      height:60px;
+    }
+    .victory {
+      height:130px;
+      position: fixed;
+      top:45%;
+      right:15%;
+    }
+    .scores {
+      top: 44%;
+      left: 10%;
+    }
+    .scores p {
+      font-size:17px;
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:350px) {
+  .deck {
+    width:270px;
+    max-width:270px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:60px;
+    max-width: 60px;
+    height:40px;
+  }
+
+  .stars i {
+    font-size: 10px;
+  }
+  .rate {
+    margin-right: -20%;
+  }
+
+  .poro-resting {
+    height:60px;
+  }
+  #timer {
+    font-size:22px;
+  }
+  .moves {
+    font-size:22px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:60px;
+  }
+  .victory {
+    height:130px;
+    position: fixed;
+    top:45%;
+    right:15%;
+  }
+  .scores {
+    top: 44%;
+    left: 15%;
+  }
+  .scores p {
+    font-size:22px;
+  }
+}
+
+@media screen and (min-width:351px) and (max-width:450px) {
+  .deck {
+    width:340px;
+    max-width:340px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:75px;
+    max-width: 75px;
+    height:50px;
+  }
+  .stars i {
+    font-size: 12px;
+  }
+  .rate {
+    margin-right: -20%;
+  }
+
+
+  .poro-resting {
+    height:60px;
+  }
+  #timer {
+    font-size:25px;
+  }
+  .moves {
+    font-size:25px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:60px;
+  }
+  .victory {
+    height:130px;
+    position: fixed;
+    top:45%;
+    right:15%;
+  }
+  .scores {
+    top: 44%;
+    left: 10%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:25px;
+  }
+
+}
+@media screen and (min-width:451px) and (max-width:550px) {
+
+  .deck {
+    width:420px;
+    max-width:420px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:90px;
+    max-width: 90px;
+    height:65px;
+  }
+
+  .poro-resting {
+    height:80px;
+  }
+  #timer {
+    font-size:26px;
+  }
+  .moves {
+    font-size:26px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+
+  .xporo-resting {
+    height:60px;
+  }
+  .victory {
+    height:130px;
+    position: fixed;
+    top:45%;
+    right:15%;
+  }
+  .scores {
+    top: 44%;
+    left: 10%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:30px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:60px;
+  }
+  .victory {
+    height:130px;
+    position: fixed;
+    top:45%;
+    right:15%;
+  }
+  .scores {
+    top: 44%;
+    left: 10%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:25px;
+  }
+
+}
+@media screen and (min-width:551px) and (max-width:650px) {
+
+  .deck {
+    width:500px;
+    max-width:500px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:105px;
+    max-width: 105px;
+    height:65px;
+  }
+
+  .poro-resting {
+    height:80px;
+  }
+  #timer {
+    font-size:27px;
+  }
+  .moves {
+    font-size:27px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:70px;
+  }
+  .victory {
+    height: 182px;
+    position: fixed;
+    top: 42%;
+    right: 13%;
+  }
+  .scores {
+    top: 44%;
+    left: 10%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:35px;
+  }
+
+}
+@media screen and (min-width:651px) and (max-width:750px) {
+
+  .deck {
+    width:605px;
+    max-width:605px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:117px;
+    max-width: 117px;
+    height:100px;
+    margin:1%;
+  }
+
+  .poro-resting {
+    height:90px;
+  }
+  #timer {
+    font-size:28px;
+  }
+  .moves {
+    font-size:28px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:70px;
+  }
+  .victory {
+    height: 230px;
+    position: fixed;
+    top: 42%;
+    right: 13%;
+  }
+  .scores {
+    top: 48%;
+    left: 12%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:40px;
+  }
+
+}
+@media screen and (min-width:751px) and (max-width:850px) {
+
+  .deck {
+    width:700px;
+    max-width:700px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:140px;
+    max-width: 140px;
+    height:100px;
+    margin:1%;
+  }
+
+  .poro-resting {
+    height:90px;
+  }
+  #timer {
+    font-size:29px;
+  }
+  .moves {
+    font-size:29px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+  }
+  .xporo-resting {
+    height:70px;
+  }
+  .victory {
+    height: 260px;
+    position: fixed;
+    top: 42%;
+    right: 13%;
+  }
+  .scores {
+    top: 48%;
+    left: 12%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:45px;
+  }
+
+}
+@media screen and (min-width:851px) and (max-width:950px) {
+
+  .deck {
+    width:810px;
+    max-width:810px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:155px;
+    max-width: 155px;
+    height:100px;
+    margin:1%;
+  }
+
+  .poro-resting {
+    height:100px;
+  }
+  #timer {
+    font-size:30px;
+  }
+  .moves {
+    font-size:30px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 20px;
+    right: 22%;
+  }
+  .xporo-resting {
+    height:100px;
+  }
+  .victory {
+    height: 300px;
+    position: fixed;
+    top: 42%;
+    right: 32%;
+  }
+  .scores {
+    top: 48%;
+    left: 12%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:50px;
+  }
+
+}
+@media screen and (min-width:951px) and (max-width:1020px) {
+
+  .deck {
+    width:900px;
+    max-width:900px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:160px;
+    max-width: 160px;
+    height:100px;
+    margin:1%;
+  }
+
+  .poro-resting {
+    height:100px;
+  }
+  #timer {
+    font-size:30px;
+  }
+  .moves {
+    font-size:30px;
+  }
+  .popup {
+    margin:auto;
+    width:100%;
+    height:60%;
+    position: fixed;
+  }
+  .scores-head {
+    font-size: 35px;
+    right: 22%;
+  }
+  .xporo-resting {
+    height:100px;
+  }
+  .victory {
+    height: 300px;
+    position: fixed;
+    top: 42%;
+    right: 32%;
+  }
+  .scores {
+    top: 48%;
+    left: 15%;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:50px;
+  }
+
+}
+@media screen and (min-width:1021px) {
+  main {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .deck {
+    width: 1025px;
+    max-width:1025px;
+    min-height: 600px;
+  }
+  .deck .card {
+    width:110px;
+    max-width: 110px;
+    height:100px;
+  }
+
+  .poro-resting {
+    height:100px;
+  }
+  #timer {
+    font-size:30px;
+  }
+  .moves {
+    font-size:30px;
+  }
+
+  .scores-head {
+    font-size: 35px;
+  }
+  .xporo-resting {
+    height:100px;
+  }
+  .victory {
+    position: fixed;
+    top: 42%;
+    right: 25%;
+  }
+  .scores {
+    top: 48%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .scores-head {
+    font-size: 30px;
+  }
+  .scores p {
+    font-size:40px;
+  }
+
+}
